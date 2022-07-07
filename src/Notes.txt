@@ -1,0 +1,8 @@
+
+Gherkin language
+
+Scenario:
+Given --> pre-condition
+When --> actions we need to perform
+And --> supporting tag
+Then --> expected result
