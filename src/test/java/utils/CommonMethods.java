@@ -32,6 +32,7 @@ public class CommonMethods extends PageInitializers {
                  chromeOptions.setHeadless(true);
                  WebDriverManager.chromedriver().setup();
                  driver = new ChromeDriver(chromeOptions);
+                 break;
 
              case "firefox":
                  WebDriverManager.firefoxdriver().setup();

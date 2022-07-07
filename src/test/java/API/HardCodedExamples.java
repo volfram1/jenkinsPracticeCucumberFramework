@@ -22,7 +22,7 @@ public class HardCodedExamples {
         RequestSpecification request = given().header("Content-Type","application/json").
                 header("Authorization",token).body("{\n" +
                         "  \"emp_firstname\": \"Anna\",\n" +
-                        "  \"emp_lastname\": \"Kowalska\",\n" +
+                        "  \"emp_lastname\": \"hjfghyfg\",\n" +
                         "  \"emp_middle_name\": \"Ewa\",\n" +
                         "  \"emp_gender\": \"F\",\n" +
                         "  \"emp_birthday\": \"2000-06-12\",\n" +
