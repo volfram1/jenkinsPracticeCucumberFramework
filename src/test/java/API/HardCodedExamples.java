@@ -15,7 +15,7 @@ import static org.hamcrest.Matchers.equalTo;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class HardCodedExamples {
     String baseURI = RestAssured.baseURI = "http://hrm.syntaxtechs.net/syntaxapi/api";
-    String token = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTUzMzQ5MTQsImlzcyI6ImxvY2FsaG9zdCIsImV4cCI6MTY1NTM3ODExNCwidXNlcklkIjoiMzg5NyJ9.S8fh2uECUG1sNdgbm3Q1Oo8UJYH3SVYJJ3zUF5SvkEE";
+    String token = "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2NTcxNjU3ODIsImlzcyI6ImxvY2FsaG9zdCIsImV4cCI6MTY1NzIwODk4MiwidXNlcklkIjoiMzg5NyJ9.QQAw-B3Lu3isJoHhMnrwj84j6F3yZMrSXsAOQpfSuT0";
     static String employee_id;
     @Test
     public void acreateEmployee(){
